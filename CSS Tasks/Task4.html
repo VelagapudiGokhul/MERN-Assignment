@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Task 4</title>
+    <style>
+        .container1 {
+            display: flex;
+            flex-direction: column;
+            float: left;
+        }
+        button {
+            color: white;
+            border: none;
+            border-radius: 10px;
+            padding: 15px 60px 15px 15px;
+            margin: 10px;
+            position: relative;
+            left: -150px;
+            transition: 0.5s;
+        }
+        .green {
+            background-color: rgb(7, 174, 7);
+        }
+        .blue {
+            background-color: rgb(0, 221, 255);
+        }
+        .red {
+            background-color: red;
+        }
+        .black {
+            background-color: black;
+        }
+
+        button:hover {
+            left: -30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container1">
+        <button class="green">This is green button</button>
+        <button class="blue">This is blue button</button>
+        <button class="red">This is red button</button>
+        <button class="black">This is black button</button>
+    </div>
+    <div class="container2">
+        <h1>Hoverable Sidenav Buttons</h1>
+        <p>Hover over the buttons in left side navigation to open them</p>
+    </div>
+    
+</body>
+</html>
